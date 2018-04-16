@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Traversing DOM</title>
+</head>
+<body>
+	<div>ABC</div>
+	<div>DEF</div>
+
+	<script type="text/javascript">
+
+		// creating element
+		var c = document.createElement('div');
+		var d = document.createTextNode('Hello World! I\'ve Born with shti');
+		c.appendChild(d);
+		document.body.appendChild(c);
+
+
+		// var c = document.querySelector('div').innerHTML;
+		// alert(c);
+		// var c = document.querySelectorAll('div');
+		// alert(c[0].innerText);
+		// alert(typeof(c));	
+	</script>
+</body>
+
+<!-- <body>
+	<ul>
+		<li class="a">Content 1</li>
+		<li class="a">Content 2</li>
+		<li class="a">Content 3</li>
+		<li class="a">Content 4</li>
+		<li class="a">Content 5</li>
+	</ul>
+
+	<script type="text/javascript">
+		var c = document.getElementsByClassName('a');
+		var firstElem = c[0].innerText;
+		alert(firstElem);
+	</script>
+</body> -->
+</html>

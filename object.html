@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object shit</title>
+</head>
+<body>
+<script type="text/javascript">
+	var objName = {
+		obj1: 'Hello',
+		obj2: 'World',
+		func: function(){
+			return this.obj1 + " " + this.obj2;	
+		}
+	};
+	console.log(objName.func());
+
+</script>
+</body>
+</html>
